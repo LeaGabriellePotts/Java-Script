@@ -13,9 +13,16 @@ let favoriteSport = "Kitesurfing";
 let favoriteTruck = "Taco";
 let state   = "North Carolina";
 let city    = "New York";
+let brand = "Louboutin";
+let firstLove = "Shaun";
+let hairColor = "blonde";
+let skinTone = "olive";
+let eyes = "brown";
+let weight = "135";
+let car = "Lexus";
+let userName = prompt ('Enter your username: "admin"');
+
 const favoriteColor = "pink";
-
-
 
 document.write("<p> " + myName + " lives in " + country + "</p>");
 
@@ -30,4 +37,11 @@ document.write(`
 <p style = "color: black" > favoriteTruck: ${favoriteTruck}</p>
 <p style = "color: green" > state: ${state}</p>
 <p style = "color: blue" > city: ${city}</p>
+<p style = "color: green" > brand: ${brand}</p>
+<p style = "color: cyan" > firstLove: ${firstLove}</p>
+<p style = "color: #FF0000" > hairColor: ${hairColor}</p>
+<p style = "color: green" > skinTone: ${skinTone}</p>
+<p style = "color: #00FF00" > eyes: ${eyes}</p>
+<p style = "color: #0000FF" > weight: ${weight}</p>
+<p style = "color: purple" > car: ${car}</p>
 `);
